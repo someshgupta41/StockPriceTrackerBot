@@ -1,0 +1,48 @@
+{
+  "id": "d528f9c9-b9b6-498b-ae4d-d2c0a8f93338",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello! Welcome to the Technology Stocks Price Tracker. Which company do you want the stock prices for ? Apple, IBM, Microsoft, Facebook, Google, Salesforce.com"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526182181,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "41645ea3-06e4-4705-90c7-52f8457fe39f",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526182181,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

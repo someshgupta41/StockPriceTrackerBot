@@ -1,0 +1,37 @@
+{
+  "id": "d0a8170d-5207-4bec-baca-b8e14631a04a",
+  "name": "price_type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "high",
+      "synonyms": [
+        "high",
+        "maximum"
+      ]
+    },
+    {
+      "value": "closing",
+      "synonyms": [
+        "closing",
+        "closing"
+      ]
+    },
+    {
+      "value": "low",
+      "synonyms": [
+        "low",
+        "minimum"
+      ]
+    },
+    {
+      "value": "opening",
+      "synonyms": [
+        "opening",
+        "opening"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

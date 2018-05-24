@@ -1,0 +1,300 @@
+{
+  "id": "90c2e452-8b37-4117-a407-0c257e6244ce",
+  "name": "GetStockPrice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.getStockPrice",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "42841fbe-e43f-4320-b419-3e97acd71d39",
+          "required": true,
+          "dataType": "@price_type",
+          "name": "price_type",
+          "value": "$price_type",
+          "prompts": [
+            "what type of price would you like ? opening, closing, high or low price ?",
+            "opening price or closing price or high price or low price ?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "1b6134b0-f749-483d-82d3-4001074dd227",
+          "required": true,
+          "dataType": "@company_name",
+          "name": "company_name",
+          "value": "$company_name",
+          "prompts": [
+            "What company would you like the information on ? I have prices for major tech companies",
+            "Would you like information for Google, Facebook, Apple, Salesforce, IBM, Microsoft ?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "a2f29404-f8e9-481b-b8aa-30c1cc3f5457",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "What date would you like the information for ?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526182339,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4a4c308e-b403-469a-a6a6-45c020ec6889",
+      "data": [
+        {
+          "text": "GOOG",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "0b67aac6-f960-4ed3-8116-ecdda3784e7a",
+      "data": [
+        {
+          "text": "Get me the "
+        },
+        {
+          "text": "opening",
+          "alias": "price_type",
+          "meta": "@price_type",
+          "userDefined": false
+        },
+        {
+          "text": " price of "
+        },
+        {
+          "text": "Apple",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on November 5th, 2017",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "45d9a29b-df89-4284-b6e8-1ae61201f2f9",
+      "data": [
+        {
+          "text": "what was on "
+        },
+        {
+          "text": "IBM",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on Tuesday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "50ac5da2-d12b-465a-9b69-07e0892b558c",
+      "data": [
+        {
+          "text": "Apple",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on Monday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "35161943-28e7-40f7-a2c4-07974956b660",
+      "data": [
+        {
+          "text": "price of "
+        },
+        {
+          "text": "Apple",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "91e006ea-9dac-4b86-9fb7-fc051be38c51",
+      "data": [
+        {
+          "text": "IBM",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "3f64589e-aeea-4b96-ab3c-d4c73a822066",
+      "data": [
+        {
+          "text": "Apple",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "da00bb75-ed9e-4e23-895b-7f1dfdd3125a",
+      "data": [
+        {
+          "text": "FB",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    },
+    {
+      "id": "79305b43-8092-4245-9ba8-80326100d00a",
+      "data": [
+        {
+          "text": " Give me the "
+        },
+        {
+          "text": "closing",
+          "alias": "price_type",
+          "meta": "@price_type",
+          "userDefined": false
+        },
+        {
+          "text": " price of "
+        },
+        {
+          "text": "Google",
+          "alias": "company_name",
+          "meta": "@company_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526181169,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

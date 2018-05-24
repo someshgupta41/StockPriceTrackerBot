@@ -1,0 +1,111 @@
+{
+  "id": "bcd19ccf-52cf-4f77-ac7d-42c08b8f952a",
+  "name": "company_name",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Google",
+      "synonyms": [
+        "Google"
+      ]
+    },
+    {
+      "value": "GOOG",
+      "synonyms": [
+        "GOOG"
+      ]
+    },
+    {
+      "value": "Amazon",
+      "synonyms": [
+        "Amazon"
+      ]
+    },
+    {
+      "value": "FB",
+      "synonyms": [
+        "FB"
+      ]
+    },
+    {
+      "value": "Netflix",
+      "synonyms": [
+        "Netflix"
+      ]
+    },
+    {
+      "value": "IBM",
+      "synonyms": [
+        "IBM"
+      ]
+    },
+    {
+      "value": "Facebook",
+      "synonyms": [
+        "Facebook"
+      ]
+    },
+    {
+      "value": "Carlyle Group",
+      "synonyms": [
+        "Carlyle Group"
+      ]
+    },
+    {
+      "value": "Apple",
+      "synonyms": [
+        "Apple"
+      ]
+    },
+    {
+      "value": "Visa",
+      "synonyms": [
+        "Visa"
+      ]
+    },
+    {
+      "value": "company_name:company_name",
+      "synonyms": [
+        "company_name:company_name"
+      ]
+    },
+    {
+      "value": "Alibaba",
+      "synonyms": [
+        "Alibaba"
+      ]
+    },
+    {
+      "value": "Microsoft",
+      "synonyms": [
+        "Microsoft"
+      ]
+    },
+    {
+      "value": "Paypal",
+      "synonyms": [
+        "Paypal"
+      ]
+    },
+    {
+      "value": "Verizon",
+      "synonyms": [
+        "Verizon"
+      ]
+    },
+    {
+      "value": "Allergan",
+      "synonyms": [
+        "Allergan"
+      ]
+    },
+    {
+      "value": "Salesforce",
+      "synonyms": [
+        "Salesforce"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}
